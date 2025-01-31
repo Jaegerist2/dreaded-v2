@@ -6,13 +6,13 @@ You don't have to set this if you deploy using heroku because you can simply set
 const session = process.env.SESSION || '';
 
 const prefix = process.env.PREFIX || '.';
-const mycode = process.env.CODE || "254";
-const author = process.env.STICKER_AUTHOR || 'fortunatus';
+const mycode = process.env.CODE || "234";
+const author = process.env.STICKER_AUTHOR || 'SHEEN';
 const packname = process.env.PACKNAME || 'dreaded md2 🤖';
-const dev = process.env.DEV || '254114018035';
+const dev = process.env.DEV || '2349014805359';
 const DevDreaded = dev.split(",");
-const botname = process.env.BOTNAME || 'DREADED';
-const mode = process.env.MODE || 'public';
+const botname = process.env.BOTNAME || 'SHINGEKI';
+const mode = process.env.MODE || 'private';
 const gcpresence = process.env.GC_PRESENCE || 'false';
 const antionce = process.env.ANTIVIEWONCE || 'true';
 const sessionName = "session";
@@ -21,8 +21,8 @@ const presence = process.env.WA_PRESENCE || 'online';
 
 const antitag = process.env.ANTITAG || 'true';
 const antidelete = process.env.ANTIDELETE || 'true';
-const autoview = process.env.AUTOVIEW_STATUS || 'true';
-const autolike = process.env.AUTOLIKE_STATUS || 'true';
+const autoview = process.env.AUTOVIEW_STATUS || 'false';
+const autolike = process.env.AUTOLIKE_STATUS || 'false';
 const autoread = process.env.AUTOREAD || 'true';
 const autobio = process.env.AUTOBIO || 'false';
 
